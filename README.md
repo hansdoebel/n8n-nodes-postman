@@ -67,6 +67,14 @@ Tested against n8n version 1.x. Requires n8n API version 1 or higher.
 
 ## Version history
 
+### 0.1.2
+
+Added Team resource.
+
+### 0.1.1
+
+Added Workspace Role and Collection Role resources.
+
 ### 0.1.0
 
 Initial release with support for 17 resources covering the full Postman public API.
