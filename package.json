@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-postman",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "n8n community node for the Postman API",
   "license": "MIT",
   "homepage": "https://github.com/hansdoebel/n8n-nodes-postman#readme",
