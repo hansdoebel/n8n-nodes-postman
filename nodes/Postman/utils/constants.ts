@@ -67,4 +67,12 @@ export const ENDPOINTS = {
 	WORKSPACE_ROLE_TYPES: '/workspace-roles',
 
 	COLLECTION_ROLES: (collectionId: string) => `/collections/${collectionId}/roles`,
+
+	TEAMS: '/teams',
+	TEAM: (teamId: string) => `/teams/${teamId}`,
+	TEAM_ACCESS_REQUESTS: (teamId: string) => `/teams/${teamId}/access-requests`,
+	TEAM_ACCESS_REQUEST: (teamId: string, requestId: string) =>
+		`/teams/${teamId}/access-requests/${requestId}`,
+	TEAM_BULK_MEMBERS: (teamId: string) => `/teams/${teamId}/bulk-members`,
+	TEAM_SETTINGS: (teamId: string) => `/teams/${teamId}/settings`,
 };

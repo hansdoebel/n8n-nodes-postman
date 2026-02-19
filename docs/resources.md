@@ -75,6 +75,16 @@ Manage saved responses inside a collection request.
 
 ---
 
+### Collection Role
+Manage role assignments for a collection. Requires an Enterprise plan.
+
+| Operation | Description |
+|-----------|-------------|
+| `get` | Get all roles assigned to a collection |
+| `update` | Update role assignments for a collection |
+
+---
+
 ### Comment
 Manage comments on APIs, collections, folders, requests, and responses.
 
@@ -194,6 +204,24 @@ Manage tags on collections and workspaces.
 
 ---
 
+### Team
+Manage teams in your Postman organization. Requires an Enterprise plan with Postman Organizations enabled and Super Admin role.
+
+| Operation | Description |
+|-----------|-------------|
+| `approveAccessRequest` | Approve or deny a team access request |
+| `create` | Create a new team |
+| `createAccessRequest` | Create an access request for a team |
+| `get` | Get a single team by ID |
+| `getAll` | List all teams in the organization |
+| `getAccessRequests` | Get a team's pending access requests |
+| `getSettings` | Get a team's settings |
+| `manageMemberRoles` | Add or remove roles for team members |
+| `removeMembers` | Remove members from a team |
+| `updateSettings` | Update a team's settings |
+
+---
+
 ### User
 Retrieve authenticated user information.
 
@@ -218,6 +246,17 @@ Manage Postman workspaces and their global variables.
 
 ---
 
+### Workspace Role
+Manage role assignments for a workspace. Requires an Enterprise plan.
+
+| Operation | Description |
+|-----------|-------------|
+| `get` | Get all roles assigned to a workspace |
+| `getRoleTypes` | List all assignable workspace role types |
+| `update` | Update role assignments for a workspace |
+
+---
+
 ### Workspace Variable
 Manage variables scoped to a workspace.
 
@@ -237,6 +276,7 @@ Manage variables scoped to a workspace.
 | Collection Folder | create, delete, get, update |
 | Collection Request | create, delete, get, update |
 | Collection Response | create, delete, get, update |
+| Collection Role | get, update |
 | Comment | create, delete, getAll, update |
 | Environment | create, delete, get, getAll, update |
 | Fork | getAll, getSourceStatus, getUserForks, merge |
@@ -246,6 +286,8 @@ Manage variables scoped to a workspace.
 | Pull Request | create, delete, get, getAll, merge, update |
 | Spec | create, delete, get, getAll, update |
 | Tag | getCollectionTags, getTaggedEntities, getWorkspaceTags, setCollectionTags, setWorkspaceTags |
+| Team | approveAccessRequest, create, createAccessRequest, get, getAll, getAccessRequests, getSettings, manageMemberRoles, removeMembers, updateSettings |
 | User | get |
 | Workspace | create, delete, get, getAll, getGlobalVariables, update, updateGlobalVariables |
+| Workspace Role | get, getRoleTypes, update |
 | Workspace Variable | getAll, update |

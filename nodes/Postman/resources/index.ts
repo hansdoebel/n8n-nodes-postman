@@ -15,6 +15,7 @@ import * as privateApiNetwork from './privateApiNetwork';
 import * as pullRequest from './pullRequest';
 import * as spec from './spec';
 import * as tag from './tag';
+import * as team from './team';
 import * as user from './user';
 import * as workspace from './workspace';
 import * as workspaceRole from './workspaceRole';
@@ -42,6 +43,7 @@ const defs: Array<[name: string, value: string, mod: ResourceModule]> = [
 	['Pull Request', 'pullRequest', pullRequest],
 	['Spec', 'spec', spec],
 	['Tag', 'tag', tag],
+	['Team', 'team', team],
 	['User', 'user', user],
 	['Workspace', 'workspace', workspace],
 	['Workspace Role', 'workspaceRole', workspaceRole],
