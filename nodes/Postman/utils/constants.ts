@@ -62,4 +62,9 @@ export const ENDPOINTS = {
 	WORKSPACE: (workspaceId: string) => `/workspaces/${workspaceId}`,
 	WORKSPACE_GLOBAL_VARIABLES: (workspaceId: string) =>
 		`/workspaces/${workspaceId}/global-variables`,
+	WORKSPACE_ROLES: (workspaceId: string) => `/workspaces/${workspaceId}/roles`,
+
+	WORKSPACE_ROLE_TYPES: '/workspace-roles',
+
+	COLLECTION_ROLES: (collectionId: string) => `/collections/${collectionId}/roles`,
 };

@@ -5,6 +5,7 @@ import * as collection from './collection';
 import * as collectionFolder from './collectionFolder';
 import * as collectionRequest from './collectionRequest';
 import * as collectionResponse from './collectionResponse';
+import * as collectionRole from './collectionRole';
 import * as comment from './comment';
 import * as environment from './environment';
 import * as fork from './fork';
@@ -16,6 +17,7 @@ import * as spec from './spec';
 import * as tag from './tag';
 import * as user from './user';
 import * as workspace from './workspace';
+import * as workspaceRole from './workspaceRole';
 import * as workspaceVariable from './workspaceVariable';
 
 type ResourceModule = {
@@ -30,6 +32,7 @@ const defs: Array<[name: string, value: string, mod: ResourceModule]> = [
 	['Collection Folder', 'collectionFolder', collectionFolder],
 	['Collection Request', 'collectionRequest', collectionRequest],
 	['Collection Response', 'collectionResponse', collectionResponse],
+	['Collection Role', 'collectionRole', collectionRole],
 	['Comment', 'comment', comment],
 	['Environment', 'environment', environment],
 	['Fork', 'fork', fork],
@@ -41,6 +44,7 @@ const defs: Array<[name: string, value: string, mod: ResourceModule]> = [
 	['Tag', 'tag', tag],
 	['User', 'user', user],
 	['Workspace', 'workspace', workspace],
+	['Workspace Role', 'workspaceRole', workspaceRole],
 	['Workspace Variable', 'workspaceVariable', workspaceVariable],
 ];
 
